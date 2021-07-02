@@ -1,0 +1,67 @@
+*{
+  box-sizing: border-box;
+}
+
+
+.register{
+  background-color: #f0f3f5;
+  padding: 20px;
+  margin: 200px auto;
+  max-width: 340px;
+}  
+
+.form{
+  
+  display: flex;
+  flex-direction: column;
+}
+.register-header{
+  text-align: center;
+}
+
+.register-title{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #7f8084;
+  position: relative;
+}
+
+.register-header-text{
+  color: #aab1b6;
+  font-size: 13px;
+}
+
+.name{
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-name, .last-name{
+  width: 48%;
+}
+
+.agrement{
+  color: #aab1b6;
+  font-size: 13px;
+  
+}
+
+.register-link{
+  color: #93f0a4;
+  text-decoration: none;
+}
+
+.btn{
+  background-color: #4da44d;
+  color: white;
+  border: none;
+  padding: 8px;
+}
+
+.pad{
+  padding: 8px;
+}
+
+.marg{
+  margin-top: 15px;
+
+}

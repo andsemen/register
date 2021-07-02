@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>FORM</title>
+  </head>
+  <body>
+    <article class="register">
+
+      <header class="register-header" >
+          <h2 class="register-title"> Register</h2>
+          <p class="register-header-text"> Create your account. It's free and only takes a minute.</p>
+
+      </header>
+
+      <form class="form" action="/" method="GET">
+        <div class="name">
+          <input
+            class="first-name marg pad"
+            type="text"
+            placeholder="First name"
+            autofocus
+            name="First Name"
+           required/>
+
+          <input class="last-name marg pad" 
+          type="text"
+          name="Last Name" 
+          placeholder="Last Name"
+          required />
+        </div>
+
+        <input class="email marg pad" 
+        type="email" 
+        placeholder="Email"
+        name="email" 
+        required/>
+
+        <input class="password marg pad" 
+        type="password" 
+        name="password"
+        placeholder="Password" 
+        required/>
+
+        <input
+          class="confirm-password marg pad"
+          type="password"
+          name="confirm password"
+          placeholder="Confirm Password"
+        />
+
+        <label class="agrement marg">
+          <input  
+          type="checkbox"
+          name="accept"
+          value="accept agrement"
+          required />
+          I accept the <a class="register-link" href="#">Terms of Use</a> &
+          <a class="register-link" href="#">Privacy Policy</a>
+        </label>
+
+        <button class="btn marg">Register Now</button>
+      </form>
+    </article>
+  </body>
+</html>
